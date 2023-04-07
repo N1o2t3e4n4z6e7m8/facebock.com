@@ -1,0 +1,92 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #dde5f1;
+    font-family:Helvetica, sans-serif;
+}
+.main{
+    width: 400px;
+    height: 680px;
+    margin: auto;
+    margin-top: 40px;
+}
+.branding{
+    text-align: center;
+}
+.logo{
+    color: blue;
+    font-size: 3.7rem;
+    letter-spacing: -3;
+}
+.slogan{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 20px 0;
+}
+.panel{
+    background-color: white;
+    width: 400px;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 6px;
+    box-shadow: 0 3px 5px 2px gray;
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+input::placeholder{
+    font-size: 1.0rem;
+}
+nput:focus{
+    outline: 1px solid blue;
+}
+nput:focius::placeholder{
+    color: #c2c2c2;
+}
+.login{
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 10px;
+    transition-property: unset;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    border: 0;
+}
+.login:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+#forgot{
+padding-top: 15px;
+}
+#register{
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    width: 15px;
+    height: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.page{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+h
